@@ -20,7 +20,7 @@
 			"primary": "#327B9F",
 			"secondary": "#569BBE"
 		},
-		"useSlideMenu": true
+		"useSlideMenu": false
 	},
 	"manifest": [
 		"http://chariti.mobi/app/logo.png",
@@ -29,16 +29,30 @@
 	"tabs": [
 		{
 			"menuHeader": "My Tabs",
-			"title": "Text",
-			"heading": "Open Source Mobile Framework for Charities",
+			"title": "Menu",
+			"heading": "Specific Restaurant Menu",
+			"text": "The ChariTi framework is built to allow the often-times small team of staffers at charities around the world to build a mobile application. This is achieved by removing the requirement for a highly-knowledgeable technical staff or costly app development firm and instead allowing app creation and management by anyone from a marketing director to an intern.",
+			"type": "text",
+			"image": "chariti",
+			"tabletSupport": false
+		},
+		{	"title": "Hours",
+			"heading": "Hours of Operation",
+			"text": "The ChariTi framework is built to allow the often-times small team of staffers at charities around the world to build a mobile application. This is achieved by removing the requirement for a highly-knowledgeable technical staff or costly app development firm and instead allowing app creation and management by anyone from a marketing director to an intern.",
+			"type": "text",
+			"image": "chariti",
+			"tabletSupport": false
+		},
+		{	"title": "Location",
+			"heading": "Map Location",
 			"text": "The ChariTi framework is built to allow the often-times small team of staffers at charities around the world to build a mobile application. This is achieved by removing the requirement for a highly-knowledgeable technical staff or costly app development firm and instead allowing app creation and management by anyone from a marketing director to an intern.",
 			"type": "text",
 			"image": "chariti",
 			"tabletSupport": false
 		},
 		{
-			"title": "Another Menu Option",
-			"heading": "This becomes CONFIG.heading in the text.js controller.",
+			"title": "Restaurant List",
+			"heading": "List of Restaurants",
 			"text": "This becomes CONFIG.text in the text.js controller.",
 			"type": "text",
 			"image": "chariti",
