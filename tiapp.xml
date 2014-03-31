@@ -28,7 +28,7 @@
     <version>1.2.1</version>
     <publisher>emylin.alex</publisher>
     <url>http://chariti.mobi</url>
-    <description>UWM Restaurant App provides menus, prices and locations for selected restaurants on UWM’s campus.</description>
+    <description>UWM Restaurant App provides menus, prices and locations for selected restaurants on UWM’s campus.   This is a test.</description>
     <copyright>2014 by Emylin and Alex</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
