@@ -17,8 +17,8 @@
 			"secret": "s-RDQejhRwmx-j4DCaXPMw"
 		},
 		"colors": {
-			"primary": "#327B9F",
-			"secondary": "#569BBE"
+			"primary": "#FFCC00",
+			"secondary": "#FF6600"
 		},
 		"useSlideMenu": false
 	},
@@ -58,5 +58,6 @@
 			"image": "chariti",
 			"tabletSupport": false
 		}
+		
 	]
 }
