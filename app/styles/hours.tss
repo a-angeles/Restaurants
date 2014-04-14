@@ -29,4 +29,7 @@
 		fontFamily: "HelveticaNeue"
 	},
 	color: "#000"
+},
+"ListItem": {
+	color: "#000"
 }
