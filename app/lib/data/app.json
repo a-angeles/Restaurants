@@ -39,14 +39,14 @@
 		{	"title": "Hours",
 			"heading": "Hours of Operation",
 			"text": "The ChariTi framework is built to allow the often-times small team of staffers at charities around the world to build a mobile application. This is achieved by removing the requirement for a highly-knowledgeable technical staff or costly app development firm and instead allowing app creation and management by anyone from a marketing director to an intern.",
-			"type": "text",
+			"type": "hours",
 			"image": "chariti",
 			"tabletSupport": false
 		},
 		{	"title": "Location",
 			"heading": "Map Location",
 			"text": "The ChariTi framework is built to allow the often-times small team of staffers at charities around the world to build a mobile application. This is achieved by removing the requirement for a highly-knowledgeable technical staff or costly app development firm and instead allowing app creation and management by anyone from a marketing director to an intern.",
-			"type": "text",
+			"type": "location",
 			"image": "chariti",
 			"tabletSupport": false
 		},
@@ -54,7 +54,7 @@
 			"title": "Restaurant List",
 			"heading": "List of Restaurants",
 			"text": "This becomes CONFIG.text in the text.js controller.",
-			"type": "text",
+			"type": "list",
 			"image": "chariti",
 			"tabletSupport": false
 		}
