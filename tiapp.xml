@@ -8,12 +8,12 @@
     <property name="acs-oauth-key-development" type="string">JyoHaOimupcogj1XxYp2pCZBYbPyc7Hr</property>
     <property name="acs-api-key-development" type="string">PtZ6CfUAL92288zMc3FrP5Qkxa68LJVD</property>
     -->
-    <property name="acs-oauth-secret-production" type="string">KbWJllelez6zf8qQ0mJCCNmJKghRoFY4</property>
-    <property name="acs-oauth-key-production" type="string">VZXyze8IIw4uGFGfL5D44vNfjbsRkXfK</property>
-    <property name="acs-api-key-production" type="string">kz9cS2OEMUFXXst8aPdfFa9I34SRTBTa</property>
-    <property name="acs-oauth-secret-development" type="string">7Ahwwb0CyGo87mQk0GlHhwaOgOJwMJNW</property>
-    <property name="acs-oauth-key-development" type="string">JyoHaOimupcogj1XxYp2pCZBYbPyc7Hr</property>
-    <property name="acs-api-key-development" type="string">PtZ6CfUAL92288zMc3FrP5Qkxa68LJVD</property>
+    <property name="acs-oauth-secret-production" type="string">iTxo35jBUwLYTvMcz0XMUvH6hmKr8Wee</property>
+    <property name="acs-oauth-key-production" type="string">Jb5kEkSNw97nmNI6yzLHkWeW7tarFdjj</property>
+    <property name="acs-api-key-production" type="string">thV7cj7bvI2uVLK6GiPXHiMI7j1BdhkG</property>
+    <property name="acs-oauth-secret-development" type="string">aG7ryQgMmTSOrKSSXsA8hJpN6BQdGzUh</property>
+    <property name="acs-oauth-key-development" type="string">KojaJFcxBXNSxohq0D4x9ebjNSOSbWtQ</property>
+    <property name="acs-api-key-development" type="string">tC0PVrxNqlryTaQW2IZfnxqbuZqXwZq1</property>
     <deployment-targets>
         <target device="tizen">false</target>
         <target device="mobileweb">false</target>
