@@ -24,7 +24,7 @@
     </deployment-targets>
     <sdk-version>3.2.1.GA</sdk-version>
     <id>edu.uwm.restaurants</id>
-    <name>ChariTi Basic</name>
+    <name>UWM Restaurants</name>
     <version>1.2.1</version>
     <publisher>emylin.alex</publisher>
     <url>http://chariti.mobi</url>
