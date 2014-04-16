@@ -4,7 +4,7 @@
  * @class Controllers.text
  * @uses core
  */
-var APP = require("core");
+var APP = require("core");          
 
 var CONFIG = arguments[0];
 
