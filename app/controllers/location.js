@@ -44,7 +44,6 @@ var anno1 = Alloy.Globals.Map.createAnnotation({
 $.map.addAnnotation(anno1);
 
 //Sandburg
-
 var anno2 = Alloy.Globals.Map.createAnnotation({
 	title: "Sandburg",
 	latitude: 43.079358,
@@ -54,7 +53,7 @@ $.map.addAnnotation(anno2);
 
 //Cambridge
 var anno3 = Alloy.Globals.Map.createAnnotation({
-	title: "Cambridge",
+	title: "Cambridge Commons",
 	latitude: 43.061018,
 	longitude: -87.892002,
 });
@@ -70,7 +69,7 @@ $.map.addAnnotation(anno4);
 
 //Northwest Quadrant
 var anno5 = Alloy.Globals.Map.createAnnotation({
-	title: "Northwest",
+	title: "Northwest Quadrant",
 	latitude: 43.078794,
 	longitude: -87.884406,
 });
@@ -94,7 +93,7 @@ $.map.addAnnotation(anno7);
 
 //Enderis
 var anno8 = Alloy.Globals.Map.createAnnotation({
-	title: "Enderis",
+	title: "Enderis Hall",
 	latitude: 43.078026,
 	longitude: -87.879663,
 });
@@ -102,7 +101,7 @@ $.map.addAnnotation(anno8);
 
 //Cunningham
 var anno9 = Alloy.Globals.Map.createAnnotation({
-	title: "Cunningham",
+	title: "Cunningham Hall",
 	latitude: 43.077916,
 	longitude: -87.885693,
 });

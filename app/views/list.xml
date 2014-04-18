@@ -1,7 +1,7 @@
 <Alloy>
 	<View id="Wrapper" name="Text">
 		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" image="data/logo.png" />
-		<ScrollView id="container" showVerticalScrollIndicator="true" scrollingEnabled="true" scrollType="vertical">
+		
 			<Label id="heading" />
 			<Label id="text" />
 			
@@ -60,13 +60,11 @@
 				</TableViewSection>
 				
 				<TableViewSection id="sectionCunningham" headerTitle="Cunningham Hall">
-					<TableViewRow title="Carrots"/>
-					<TableViewRow title="Potatoes"/>
+					<TableViewRow title="Cunningham Cafe"/>
 				</TableViewSection>
 				
 			</TableView>
 
-		</ScrollView>
 
 	</View>
 </Alloy>
