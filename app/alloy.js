@@ -22,3 +22,4 @@
  * Social module
  * @hide
  */
+Alloy.Globals.Map = require('ti.map');

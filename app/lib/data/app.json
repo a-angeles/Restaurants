@@ -45,8 +45,6 @@
 			"tabletSupport": false
 		},
 		{	"title": "Location",
-			"heading": "The map goes here.",
-			"text": "map of the buildings",
 			"type": "location",
 			"image": "map",
 			"tabletSupport": false

@@ -29,4 +29,16 @@
 		fontFamily: "HelveticaNeue"
 	},
 	color: "#000"
+},
+"#map": {
+	userLocation: true,
+	animate: true,
+	height: "100%",
+	top: 0,
+	region: {
+		latitude: 43.07,
+		latitudeDelta: 0.04,
+		longitude: -87.88,
+		longitudeDelta: 0.04
+	}
 }

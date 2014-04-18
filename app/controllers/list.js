@@ -27,4 +27,4 @@ if(CONFIG.isChild === true) {
 }
 
 // Do we need this part of the code? It works fine without it.
-//var args = arguments[0] || {}; 
+//var args = arguments[0] || {};
