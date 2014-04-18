@@ -2,68 +2,66 @@
 	<View id="Wrapper" name="Text">
 		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" image="data/logo.png" />
 		
-			<Label id="heading" />
-			<Label id="text" />
+		<TableView id="table">
 			
+	
 
-			<TableView id="table">
-				
-				<TableViewSection id="sectionUnion" headerTitle="Union">
-					<TableViewRow title="Burger King"/>
-					<TableViewRow title="Cedar Crest"/>
-					<TableViewRow title="City Subs"/>
-					<TableViewRow title="Grind"/>
-					<TableViewRow title="Pacific Wraps"/>
-					<TableViewRow title="Pizza Presto"/>			
-					<TableViewRow title="Stir Fry"/>
-					<TableViewRow title="Taco Bell"/>					
-					<TableViewRow title="The Flour Shop"/>
-					<TableViewRow title="The Gasthaus"/>
-					<TableViewRow title="The Kenwood Inn"/>		
-					<TableViewRow title="The Union Station"/>							
-				</TableViewSection>
-				
-				<TableViewSection id="sectionSandburg" headerTitle="Sandburg">
-					<TableViewRow title="Emporium"/>
-					<TableViewRow title="Grind"/>
-					<TableViewRow title="Palm Gardens"/>
-					<TableViewRow title="Sandburg Cafe"/>
-				</TableViewSection>
-				
-				<TableViewSection id="sectionCambridge" headerTitle="Cambrigde Commons">
-					<TableViewRow title="Cambridge Cafe"/>
-					<TableViewRow title="RESTOR +More"/>
-				</TableViewSection>
-				
-				<TableViewSection id="sectionRiverview" headerTitle="Riverview">
-					<TableViewRow title="Riverview Cafe"/>
-					<TableViewRow title="Restor +More"/>
-				</TableViewSection>
-				
-				<TableViewSection id="sectionNorthwest" headerTitle="Northwest Quadrant">
-					<TableViewRow title="Grind"/>
-					<TableViewRow title="Restor"/>
-				</TableViewSection>
-				
-				<TableViewSection id="sectionLibrary" headerTitle="Library">
-					<TableViewRow title="Grind"/>
-				</TableViewSection>
-				
-				<TableViewSection id="sectionEms" headerTitle="EMS">
-					<TableViewRow title="Grind"/>
-				</TableViewSection>
-				
-				<TableViewSection id="sectionEnderis" headerTitle="Enderis Hall">
-					<TableViewRow title="The Denemark Lounge"/>
-					
-				</TableViewSection>
-				
-				<TableViewSection id="sectionCunningham" headerTitle="Cunningham Hall">
-					<TableViewRow title="Cunningham Cafe"/>
-				</TableViewSection>
-				
-			</TableView>
+			<TableViewSection id="sectionUnion" headerTitle="Union">
+							
+				<TableViewRow id="rest" title="Burger King"/>
+				<TableViewRow title="Cedar Crest"/>
+				<TableViewRow title="City Subs"/>
+				<TableViewRow title="Grind"/>
+				<TableViewRow title="Pacific Wraps"/>
+				<TableViewRow title="Pizza Presto"/>
+				<TableViewRow title="Stir Fry"/>
+				<TableViewRow title="Taco Bell"/>
+				<TableViewRow title="The Flour Shop"/>
+				<TableViewRow title="The Gasthaus"/>
+				<TableViewRow title="The Kenwood Inn"/>
+				<TableViewRow title="The Union Station"/>
+			</TableViewSection>
+			
+			<TableViewSection id="sectionSandburg" headerTitle="Sandburg">
+				<TableViewRow title="Emporium"/>
+				<TableViewRow title="Grind"/>
+				<TableViewRow title="Palm Gardens"/>
+				<TableViewRow title="Sandburg Cafe"/>
+			</TableViewSection>
+			
+			<TableViewSection id="sectionCambridge" headerTitle="Cambrigde Commons">
+				<TableViewRow title="Cambridge Cafe"/>
+				<TableViewRow title="RESTOR +More"/>
+			</TableViewSection>
+			
+			<TableViewSection id="sectionRiverview" headerTitle="Riverview">
+				<TableViewRow title="Riverview Cafe"/>
+				<TableViewRow title="Restor +More"/>
+			</TableViewSection>
+			
+			<TableViewSection id="sectionNorthwest" headerTitle="Northwest Quadrant">
+				<TableViewRow title="Grind"/>
+				<TableViewRow title="Restor"/>
+			</TableViewSection>
+			
+			<TableViewSection id="sectionLibrary" headerTitle="Library">
+				<TableViewRow title="Grind"/>
+			</TableViewSection>
+			
+			<TableViewSection id="sectionEms" headerTitle="EMS">
+				<TableViewRow title="Grind"/>
+			</TableViewSection>
+			
+			<TableViewSection id="sectionEnderis" headerTitle="Enderis Hall">
+				<TableViewRow title="The Denemark Lounge"/>
 
+			</TableViewSection>
+			<TableViewSection id="sectionCunningham" headerTitle="Cunningham Hall">
+				<TableViewRow title="Cunningham Cafe"/>
+			</TableViewSection>
+			
+			
+		</TableView>
 
 	</View>
 </Alloy>

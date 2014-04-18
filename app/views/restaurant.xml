@@ -1,0 +1,22 @@
+<Alloy>
+	<View id="Wrapper" name="Text">
+		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" image="data/logo.png" />
+		
+		
+			<Label id="heading" />
+			
+			<Label id="text" />
+			<ListView>
+			 <ListSection>
+                <ListItem title="RESTAURANT 1"/>
+                <ListItem title="RESTAURANT 2"/>
+                <ListItem title="RESTAURANT 3"/>
+                <ListItem title="RESTAURANT 4"/>
+                <ListItem title="RESTAURANT 5"/>
+                <ListItem title="RESTAURANT 6"/>
+                <ListItem title="RESTAURANT 7"/>
+            </ListSection>
+			
+		</ListView>
+	</View>
+</Alloy>

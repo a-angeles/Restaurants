@@ -38,8 +38,6 @@
 		},
 				{
 			"title": "Restaurant List",
-			"heading": "Choose a place",
-			"text": "Buildings",
 			"type": "list",
 			"image": "book",
 			"tabletSupport": false
