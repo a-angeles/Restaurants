@@ -10,6 +10,10 @@ var CONFIG = arguments[0];
 
 APP.log("debug", "text | " + JSON.stringify(CONFIG));
 
+$.heading.text = CONFIG.heading;
+$.heading.color = APP.Settings.colors.hsb.primary.b > 70 ? "#000" : APP.Settings.colors.primary;
+$.text.text = CONFIG.text;
+
 $.NavigationBar.setBackgroundColor(APP.Settings.colors.primary);
 
 if(CONFIG.isChild === true) {
@@ -27,27 +31,3 @@ if(CONFIG.isChild === true) {
 		});
 	}
 }
-
-$.menu.addEventListener("click", function() {
-	APP.addChild("menu", {
-		isChild: "true",
-		text: "Hello from menu",
-	});
-
-});
-
-$.hours.addEventListener("click", function() {
-	APP.addChild("hours", {
-		isChild: "true",
-		text: "Hello from hours",
-	});
-
-});
-
-$.about.addEventListener("click", function() {
-	APP.addChild("about", {
-		isChild: "true",
-		text: "Hello from about",
-	});
-
-});
