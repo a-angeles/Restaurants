@@ -29,35 +29,29 @@
 	"tabs": [
 		{
 			"menuHeader": "My Tabs",
-			"title": "Menu",
-			"heading": "Specific Restaurant Menu",
-			"text": "The ChariTi framework is built to allow the often-times small team of staffers at charities around the world to build a mobile application. This is achieved by removing the requirement for a highly-knowledgeable technical staff or costly app development firm and instead allowing app creation and management by anyone from a marketing director to an intern.",
+			"title": "Home",
+			"heading": "Welcome to UWM Restaurants",
+			"text": "Restaurant Operations offers the campus community a variety of dining options, from nutritious meals at Sandburg Café to casual dining in the Union’s Gasthaus, with a variety of new vegetarian and vegan options. If on the run, the Union’s Atrium Flour Shop is a great place to grab a snack or stop by the Grind for a cup of joe. There are a total of 27 places to eat, grab a snack or rejuvenate with coffee! There are also a number of convenience stores on campus; the Emporium in Sandburg Hall, Union Station which is located on the ground floor of the Union, Restor & Restor +More with healthy food options. We also provide a wide variety of catering services, from lunch on the run to elegant full service dinners.",
 			"type": "text",
 			"image": "menu",
 			"tabletSupport": false
 		},
-		{	"title": "Hours",
-			"heading": "Hours of Operation",
-			"text": "This will include restaurant and its hours of operation",
-			"type": "hours",
-			"image": "event",
-			"tabletSupport": false
-		},
-		{	"title": "Location",
-			"heading": "Map Location",
-			"text": "The ChariTi framework is built to allow the often-times small team of staffers at charities around the world to build a mobile application. This is achieved by removing the requirement for a highly-knowledgeable technical staff or costly app development firm and instead allowing app creation and management by anyone from a marketing director to an intern.",
-			"type": "location",
-			"image": "map",
-			"tabletSupport": false
-		},
-		{
+				{
 			"title": "Restaurant List",
-			"heading": "List of Restaurants",
-			"text": "This becomes CONFIG.text in the text.js controller.",
+			"heading": "Choose a place",
+			"text": "Buildings",
 			"type": "list",
 			"image": "book",
 			"tabletSupport": false
+		},
+		{	"title": "Location",
+			"heading": "The map goes here.",
+			"text": "map of the buildings",
+			"type": "location",
+			"image": "map",
+			"tabletSupport": false
 		}
+
 		
 	]
 }

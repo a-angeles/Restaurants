@@ -1,9 +1,3 @@
-/**
- * Controller for the text screen
- *
- * @class Controllers.text
- * @uses core
- */
 var APP = require("core");
 
 var CONFIG = arguments[0];
@@ -31,4 +25,6 @@ if(CONFIG.isChild === true) {
 		});
 	}
 }
-var args = arguments[0] || {};
+
+// Do we need this part of the code? It works fine without it.
+//var args = arguments[0] || {}; 
