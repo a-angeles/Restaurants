@@ -36,7 +36,7 @@
 			"image": "menu",
 			"tabletSupport": false
 		},
-				{
+		{
 			"title": "Restaurant List",
 			"type": "list",
 			"image": "book",
@@ -46,8 +46,15 @@
 			"type": "location",
 			"image": "map",
 			"tabletSupport": false
+		},
+		{
+			"title": "Events",
+			"heading": "Events at UWM Restaurants",
+			"text": "List Events here.",
+			"type": "events",
+			"image": "social",
+			"tabletSupport": false
 		}
-
-		
+				
 	]
 }
