@@ -38,7 +38,7 @@
 		},
 		{
 			"title": "Restaurant List",
-			"type": "list",
+			"type": "restaurant",
 			"image": "book",
 			"tabletSupport": false
 		},

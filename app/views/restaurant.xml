@@ -1,4 +1,4 @@
-<Alloy>
+<!--<Alloy>
 	<View id="Wrapper" name="Text">
 		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" image="data/logo.png" />
 		<View backgroundColor="#282828" layout="vertical">
@@ -19,5 +19,13 @@
 
 		</View>
 
+	</View>
+</Alloy>-->
+<!--Resty Code-->
+<Alloy>
+	<View id="Wrapper" name="Text">
+		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" image="data/logo.png" />
+		<Label id="label" top="50dp">Cloud Test</Label>
+		<TableView id="myStuff" />
 	</View>
 </Alloy>

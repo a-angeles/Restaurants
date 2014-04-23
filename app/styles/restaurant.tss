@@ -1,4 +1,4 @@
-"#Wrapper": {
+/*"#Wrapper": {
 	layout: "vertical"
 },
 "#container": {
@@ -32,4 +32,24 @@
 },
 "ListItem": {
 	color: "#000"
+}*/
+
+//Resty code
+".container": {
+	backgroundColor: "white",
+	layout: "vertical"
+},
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+},
+
+"#myStuff": {
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL
+},
+
+"#Wrapper": {
+	layout: "vertical"
 }
