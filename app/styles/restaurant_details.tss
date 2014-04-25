@@ -13,19 +13,19 @@
 	right: "15dp",
 	height: Ti.UI.SIZE,
 	font: {
-		fontSize: "25dp",
+		fontSize: "15dp",
 		fontFamily: "HelveticaNeue-Light"
 	},
 	color: "#000"
 },
 "#text": {
-	top: "10dp",
+	top: "40dp",
 	left: "15dp",
 	right: "15dp",
 	bottom: "15dp",
 	height: Ti.UI.SIZE,
 	font: {
-		fontSize: "14dp",
+		fontSize: "15dp",
 		fontFamily: "HelveticaNeue"
 	},
 	color: "#000"

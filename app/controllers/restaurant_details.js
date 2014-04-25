@@ -9,6 +9,10 @@ $.NavigationBar.showBack(function(_event) {
 //
 APP.log("debug", "text | " + JSON.stringify(CONFIG));
 
+$.heading.text = CONFIG.heading;
+$.heading.color = APP.Settings.colors.hsb.primary.b > 70 ? "#000" : APP.Settings.colors.primary;
+$.text.text = CONFIG.text;
+
 $.NavigationBar.setBackgroundColor(APP.Settings.colors.primary);
 
 $.menu.addEventListener("click", function() {

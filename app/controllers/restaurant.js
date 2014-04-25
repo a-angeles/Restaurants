@@ -35,15 +35,17 @@ var init = function() {
 };
 
 //make something function -- can do with out later (remember to kill out of login function)
+
 var makeSomeThing = function() {
 	Cloud.Objects.create({
 		classname: 'Restaurants',
 		fields: {
-			name: 'TheCoolGrind',
-			hours: '9am - 9pm',
+			name: 'Burger King',
+			hours: '10am - 8pm',
 			logo: "/images/logo.png",
 			menuId: 0,
-			building: "Union"
+			building: "Union",
+			about: "This is a test for about BK"
 		}
 	}, function(e) {
 		if(e.success) {
@@ -95,13 +97,7 @@ var getAllTheThings = function() {
 					left: "10dp"
 				});
 
-				var hours = Ti.UI.createLabel({
-					text: restaurant.hours,
-					left: "10dp"
-				});
-
 				row.add(title);
-				row.add(hours);
 
 				rows.push(row);
 
@@ -149,40 +145,3 @@ $.myStuff.addEventListener("click", function(e) {
 });
 
 init();
-
-//Emy code
-/*var APP = require("core");
-
-var CONFIG = arguments[0];
-//
-$.NavigationBar.showBack(function(_event) {
-	APP.removeChild();
-});
-//
-APP.log("debug", "text | " + JSON.stringify(CONFIG));
-
-$.NavigationBar.setBackgroundColor(APP.Settings.colors.primary);
-
-$.menu.addEventListener("click", function() {
-	APP.addChild("menu", {
-		isChild: "true",
-		text: "Hello from menu",
-	});
-
-});
-
-$.hours.addEventListener("click", function() {
-	APP.addChild("hours", {
-		isChild: "true",
-		text: "Hello from hours",
-	});
-
-});
-
-$.about.addEventListener("click", function() {
-	APP.addChild("about", {
-		isChild: "true",
-		text: "Hello from about",
-	});
-
-});*/

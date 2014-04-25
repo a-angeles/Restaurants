@@ -1,31 +1,8 @@
-<!--<Alloy>
-	<View id="Wrapper" name="Text">
-		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" image="data/logo.png" />
-		<View backgroundColor="#282828" layout="vertical">
 
-			<View height="50%" layout="horizontal">
-				<View height="100%" width="50%" backgroundColor="#FFB03B"></View>
-				<View height="100%" width="50%" backgroundColor="#FFFFFF"></View>
-			</View>
-			<View height="50%" layout="absolute">
-				
-				<TableView id="options">	
-					<TableViewRow id="menu" title="Menu" hasChild="true"/>
-					<TableViewRow id="hours" title="Hours" hasChild="true"/>
-					<TableViewRow id="about "title="About" hasChild="true"/>
-									
-				</TableView>	
-			</View>
-
-		</View>
-
-	</View>
-</Alloy>-->
-<!--Resty Code-->
 <Alloy>
 	<View id="Wrapper" name="Text">
 		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" image="data/logo.png" />
-		<Label id="label" top="50dp">Cloud Test</Label>
+		
 		<TableView id="myStuff" />
 	</View>
 </Alloy>

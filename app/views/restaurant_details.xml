@@ -4,8 +4,16 @@
 		<View backgroundColor="#282828" layout="vertical">
 
 			<View height="50%" layout="horizontal">
-				<View height="100%" width="50%" backgroundColor="#FFB03B"></View>
-				<View height="100%" width="50%" backgroundColor="#FFFFFF"></View>
+				<View height="100%" width="50%" backgroundColor="#FFB03B">
+					
+					
+				</View>
+				<View height="100%" width="50%" backgroundColor="#FFFFFF">
+					
+					<Label id="heading" />
+					<Label id="text" />
+					
+				</View>
 			</View>
 			<View height="50%" layout="absolute">
 				
