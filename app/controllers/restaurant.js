@@ -142,7 +142,7 @@ $.myStuff.addEventListener("click", function(e) {
 
 	//make a restaurant_details js xml and tss
 	//and write all restaurant details ther.
-	APP.addChild("text", {
+	APP.addChild("restaurant_details", {
 		heading: e.row.name,
 		text: e.row.building
 	});
