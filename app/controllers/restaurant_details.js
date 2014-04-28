@@ -12,9 +12,14 @@ APP.log("debug", "text | " + JSON.stringify(CONFIG));
 $.heading.text = CONFIG.heading;
 $.heading.color = APP.Settings.colors.hsb.primary.b > 70 ? "#000" : APP.Settings.colors.primary;
 $.text.text = CONFIG.text;
+$.hoursText.text = CONFIG.hours;
+$.menuText.text = CONFIG.menu;
+$.aboutText.text = CONFIG.about;
+$.logoText.text = CONFIG.logo;
 
 $.NavigationBar.setBackgroundColor(APP.Settings.colors.primary);
 
+/*
 $.menu.addEventListener("click", function() {
 	APP.addChild("menu", {
 		isChild: "true",
@@ -38,3 +43,4 @@ $.about.addEventListener("click", function() {
 	});
 
 });
+*/

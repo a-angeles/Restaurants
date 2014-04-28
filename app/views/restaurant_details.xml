@@ -5,26 +5,41 @@
 
 			<View height="50%" layout="horizontal">
 				<View height="100%" width="50%" backgroundColor="#FFB03B">
-					
-					
+					<Label id="logoText" />
+
 				</View>
 				<View height="100%" width="50%" backgroundColor="#FFFFFF">
-					
+
 					<Label id="heading" />
 					<Label id="text" />
-					
+
 				</View>
 			</View>
-			<View height="50%" layout="absolute">
 				
-				<TableView id="options">	
-					<TableViewRow id="menu" title="Menu" hasChild="true"/>
-					<TableViewRow id="hours" title="Hours" hasChild="true"/>
-					<TableViewRow id="about "title="About" hasChild="true"/>
-									
-				</TableView>	
-			</View>
+			<View height="50%" layout="absolute">
 
+				<TableView id="options">
+
+					<TableViewSection headerTitle="Menu">
+						<TableViewRow id="menu" title="Menu" >
+							<Label id="menuText" />
+						</TableViewRow>
+					</TableViewSection>
+					
+					<TableViewSection headerTitle="Hours">
+						<TableViewRow id="hours" title="Hours">
+							<Label id="hoursText" />
+						</TableViewRow>
+					</TableViewSection>
+					
+					<TableViewSection headerTitle="About">
+						<TableViewRow id="about "title="About">
+							<Label id="aboutText" />
+						</TableViewRow>
+					</TableViewSection>
+
+				</TableView>
+			</View>
 		</View>
 
 	</View>
