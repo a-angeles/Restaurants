@@ -1,22 +1,31 @@
 <Alloy>
 	<View id="Wrapper" name="Text">
 		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" image="data/logo.png" />
+		<Label id="heading" />
+
 		
-		
-			<Label id="heading" />
+	
+		<TableView id="table">
+
+			<TableViewSection id="evt1" headerTitle="Wisconsin Tailgate">
+				<TableViewRow title="April 10 @ 4:30 pm - 7:00"/>
+				<TableViewRow title="Sandburg Cafe"/>
+			</TableViewSection>
 			
-			<Label id="text" />
-			<ListView>
-			 <ListSection>
-                <ListItem title="RESTAURANT 1"/>
-                <ListItem title="RESTAURANT 2"/>
-                <ListItem title="RESTAURANT 3"/>
-                <ListItem title="RESTAURANT 4"/>
-                <ListItem title="RESTAURANT 5"/>
-                <ListItem title="RESTAURANT 6"/>
-                <ListItem title="RESTAURANT 7"/>
-            </ListSection>
+			<TableViewSection id="evt2" headerTitle="Circus Circus">
+				<TableViewRow title="April 15 @ 4:30 pm - 8:00"/>
+				<TableViewRow title="Riverview Residence Hall"/>
+			</TableViewSection>
 			
-		</ListView>
+			
+			<TableViewSection id="evt3" headerTitle="Arcade Night">
+				<TableViewRow title="April 15 @ 7:30 pm - 11:00"/>
+				<TableViewRow title="Palm Gardens"/>
+			</TableViewSection>
+			
+			
+		</TableView>
+
+
 	</View>
 </Alloy>

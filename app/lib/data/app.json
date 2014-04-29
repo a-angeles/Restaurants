@@ -50,7 +50,6 @@
 		{
 			"title": "Events",
 			"heading": "Events at UWM Restaurants",
-			"text": "List Events here.",
 			"type": "events",
 			"image": "social",
 			"tabletSupport": false
