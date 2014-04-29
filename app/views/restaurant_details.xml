@@ -15,23 +15,20 @@
 
 				</View>
 			</View>
-				
 			<View height="50%" layout="absolute">
 
 				<TableView id="options">
 
-					<TableViewSection headerTitle="Menu">
-						<TableViewRow id="menu" title="Menu" >
-							<Label id="menuText" />
-						</TableViewRow>
-					</TableViewSection>
-					
 					<TableViewSection headerTitle="Hours">
 						<TableViewRow id="hours" title="Hours">
 							<Label id="hoursText" />
 						</TableViewRow>
 					</TableViewSection>
-					
+					<TableViewSection headerTitle="Menu">
+						<TableViewRow id="menu" title="Menu" >
+							<Label id="menuText" />
+						</TableViewRow>
+					</TableViewSection>
 					<TableViewSection headerTitle="About">
 						<TableViewRow id="about "title="About">
 							<Label id="aboutText" />

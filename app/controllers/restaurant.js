@@ -87,8 +87,8 @@ var getAllTheThings = function() {
 					name: restaurant.name,
 					building: restaurant.building,
 					hours: restaurant.hours,
-					menu: restaurant.menu,
 					logo: restaurant.logo,
+					menu: restaurant.menu,
 					about: restaurant.about
 				});
 
