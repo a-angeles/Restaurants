@@ -5,7 +5,7 @@
 
 			<View height="50%" layout="horizontal">
 				<View height="100%" width="50%" backgroundColor="#FFB03B">
-					<Label id="logoText" />
+					  <ImageView id="photoText" />
 
 				</View>
 				<View height="100%" width="50%" backgroundColor="#FFFFFF">

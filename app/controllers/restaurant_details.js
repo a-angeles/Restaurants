@@ -15,8 +15,16 @@ $.text.text = CONFIG.text;
 $.hoursText.text = CONFIG.hours;
 $.menuText.text = CONFIG.menu;
 $.aboutText.text = CONFIG.about;
-$.logoText.text = CONFIG.logo;
 
+//$.photoText.image = CONFIG.photo.urls.square_75;
+/*
+for(var thing in CONFIG.photo) {
+	alert(thing + " = " + CONFIG.photo[thing]);
+}
+
+alert(CONFIG.photo);
+Ti.API.info(CONFIG.photo);
+*/
 $.NavigationBar.setBackgroundColor(APP.Settings.colors.primary);
 
 /*
