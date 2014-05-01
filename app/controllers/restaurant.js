@@ -75,7 +75,7 @@ var getAllTheThings = function() {
 
 			var rows = [];
 
-			alert('Success:\n' + 'Count: ' + e.Restaurants.length);
+			//alert('Success:\n' + 'Count: ' + e.Restaurants.length);
 			for(var i = 0; i < e.Restaurants.length; i++) {
 				var restaurant = e.Restaurants[i];
 				//alert('id: ' + restaurant.id + '\n' + 'name: ' + restaurant.name );
@@ -122,17 +122,17 @@ var loginUser = function() {
 	}, function(e) {
 		if(e.success) {
 			var user = e.users[0];
-			alert('Success:\n' + 'id: ' + user.id + '\n' + 'sessionId: ' + Cloud.sessionId + '\n' + 'first name: ' + user.first_name + '\n' + 'last name: ' + user.last_name);
+			//alert('Success:\n' + 'id: ' + user.id + '\n' + 'sessionId: ' + Cloud.sessionId + '\n' + 'first name: ' + user.first_name + '\n' + 'last name: ' + user.last_name);
 
-			makeSomeThing();
-			alert("made something");
+			//makeSomeThing();
+			//alert("made something");
 
 			//APP.openLoading();
 
 			getAllTheThings();
 
 			//APP.closeLoading();
-			alert("got somethings");
+			//alert("got somethings");
 
 		} else {
 			alert('Error:\n' + ((e.error && e.message) || JSON.stringify(e)));

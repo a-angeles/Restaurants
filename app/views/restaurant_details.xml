@@ -5,8 +5,7 @@
 
 			<View height="50%" layout="horizontal">
 				<View height="100%" width="50%" backgroundColor="#FFB03B">
-					  <ImageView id="photoText" />
-
+					<ImageView id="photoText" image="/images/default_restaurant.png" />
 				</View>
 				<View height="100%" width="50%" backgroundColor="#FFFFFF">
 

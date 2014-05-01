@@ -1,6 +1,6 @@
 /**
  * @class Modules.ti.cloud
- * 
+ *
  * Cloud module
  * @hide
  */
@@ -22,4 +22,6 @@
  * Social module
  * @hide
  */
-Alloy.Globals.Map = require('ti.map');
+if (OS_ANDROID) {
+	Alloy.Globals.Map = require('ti.map');
+}
