@@ -21,29 +21,3 @@ if(CONFIG.photo) {
 }
 
 $.NavigationBar.setBackgroundColor(APP.Settings.colors.primary);
-
-/*
-$.menu.addEventListener("click", function() {
-	APP.addChild("menu", {
-		isChild: "true",
-		text: "Hello from menu",
-	});
-
-});
-
-$.hours.addEventListener("click", function() {
-	APP.addChild("hours", {
-		isChild: "true",
-		text: "Hello from hours",
-	});
-
-});
-
-$.about.addEventListener("click", function() {
-	APP.addChild("about", {
-		isChild: "true",
-		text: "Hello from about",
-	});
-
-});
-*/
