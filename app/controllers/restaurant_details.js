@@ -17,7 +17,7 @@ $.menuText.text = CONFIG.menu;
 $.aboutText.text = CONFIG.about;
 
 if(CONFIG.photo) {
-	$.photoText.image = CONFIG.photo.urls.square_75;
+	$.photoText.image = CONFIG.photo.urls.medium_640;
 }
 
 $.NavigationBar.setBackgroundColor(APP.Settings.colors.primary);
