@@ -97,7 +97,8 @@ var getAllTheThings = function() {
 						fontFamily: "bold",
 						fontSize: "22dp"
 					},
-					left: "10dp"
+					left: "10dp",
+					color: "#000",
 				});
 
 				row.add(title);
