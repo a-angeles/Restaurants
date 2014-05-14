@@ -4,8 +4,8 @@
 		
 		<ScrollView id="container">
 			<Label id="heading" />
-			
 			<Label id="text" />
+			<ImageView top="20dp" id="uwm" image="/UWM.jpg" width="300dp" />
 			
 		</ScrollView>
 	</View>
