@@ -33,12 +33,3 @@
 "ListItem": {
 	color: "#000"
 }
-
-/*"#options": {
-
-	font: {
-		fontSize: "20dp",
-		fontFamily: "HelveticaNeue"
-	},
-	color: "#000"
-}*/

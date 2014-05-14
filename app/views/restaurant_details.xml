@@ -4,10 +4,10 @@
 		<View backgroundColor="#282828" layout="vertical">
 
 			<View height="50%" layout="horizontal">
-				<View height="100%" width="50%" backgroundColor="#FFB03B">
+				<View height="100%" width="50%" backgroundColor="#FFFFFF">
 					<ImageView id="photoText" image="/images/default_restaurant.png" />
 				</View>
-				<View height="100%" width="50%" backgroundColor="#FFFFFF">
+				<View height="100%" width="50%" backgroundColor="#FFB03B">
 
 					<Label id="heading" />
 					<Label id="text" />

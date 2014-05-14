@@ -2,7 +2,9 @@
 <Alloy>
 	<View id="Wrapper" name="Text">
 		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" image="data/logo.png" />
+		<View backgroundColor="#ffb030" layout="vertical">
 		
 		<TableView id="myStuff" />
+	</View>
 	</View>
 </Alloy>

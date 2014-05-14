@@ -1,11 +1,13 @@
 <Alloy>
 	<View id="Wrapper" name="Text">
 		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" image="data/logo.png" />
+		<View backgroundColor="#ffb030" layout="vertical">
 		<Label id="heading" />
 
 		
 	
 		<TableView id="table">
+		
 
 			<TableViewSection id="evt1" headerTitle="Wisconsin Tailgate">
 				<TableViewRow title="April 10 @ 4:30 pm - 7:00"/>
@@ -23,9 +25,23 @@
 				<TableViewRow title="Palm Gardens"/>
 			</TableViewSection>
 			
+			<TableViewSection id="evt4" headerTitle="Day at the Family Farm">
+				<TableViewRow title="April 16 @ 4:30 pm - 7:00"/>
+				<TableViewRow title="Cambridge Commons"/>
+			</TableViewSection>
+			
+			<TableViewSection id="evt5" headerTitle="World of Flavors Sushi">
+				<TableViewRow title="April 23 @ 5:30 pm - 6:30"/>
+				<TableViewRow title="Riverview Residence Hall"/>
+			</TableViewSection>
+			
+			<TableViewSection id="evt6" headerTitle="World of Flavors Tailgate & Grill">
+				<TableViewRow title="April 29 @ 5:30 pm - 6:30"/>
+				<TableViewRow title="Sandburg Residence Hall"/>
+			</TableViewSection>
 			
 		</TableView>
 
-
+</View>
 	</View>
 </Alloy>
