@@ -25,6 +25,20 @@
 				<TableViewRow title="Palm Gardens"/>
 			</TableViewSection>
 			
+			<TableViewSection id="evt4" headerTitle="Day at the Family Farm">
+				<TableViewRow title="April 16 @ 4:30 pm - 7:00"/>
+				<TableViewRow title="Cambridge Commons"/>
+			</TableViewSection>
+			
+			<TableViewSection id="evt5" headerTitle="World of Flavors Sushi">
+				<TableViewRow title="April 23 @ 5:30 pm - 6:30"/>
+				<TableViewRow title="Riverview Residence Hall"/>
+			</TableViewSection>
+			
+			<TableViewSection id="evt6" headerTitle="World of Flavors Tailgate & Grill">
+				<TableViewRow title="April 29 @ 5:30 pm - 6:30"/>
+				<TableViewRow title="Sandburg Residence Hall"/>
+			</TableViewSection>
 			
 		</TableView>
 
