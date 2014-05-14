@@ -1,11 +1,13 @@
 <Alloy>
 	<View id="Wrapper" name="Text">
 		<Require type="widget" src="com.mcongrove.navigationBar" id="NavigationBar" image="data/logo.png" />
+		<View backgroundColor="#ffb030" layout="vertical">
 		<Label id="heading" />
 
 		
 	
 		<TableView id="table">
+		
 
 			<TableViewSection id="evt1" headerTitle="Wisconsin Tailgate">
 				<TableViewRow title="April 10 @ 4:30 pm - 7:00"/>
@@ -26,6 +28,6 @@
 			
 		</TableView>
 
-
+</View>
 	</View>
 </Alloy>
